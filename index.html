@@ -40,18 +40,13 @@ var x = setInterval(function() {
   document.getElementById("demo").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
-  // If the count down is over, write some text
+    // If the count down is over, write some text
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
-<<<<<<< HEAD
 }, 1000);
 </script>
 
 </body>
-=======
-  </script>
- </body>
->>>>>>> b88d9a3aa34e76747aa227ee60559d212336cdd8
 </html>
